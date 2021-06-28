@@ -1,106 +1,128 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
-    <title> Happy father's day!></title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>My BLOG</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style1.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html"></a>
-            <div class="nav-links">
-                <i class="fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
-                <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#family">FAMILY</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()" aria-hidden="true"></i>
-        </nav>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="text-box">
-            <h1>Kiran Kumar Bankupalli's Personal Website</h1>
-            <p>In this Website you will <br> learn all you need to know about me!</p>
-            <a href="" class="hero-btn">Read more on this Website to learn more</a>
+    <nav class="navbar-inverse my_nav_bar" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://codingwhitehatjr.github.io/pearsonalwebsite/">Prerna
+            </a>
         </div>
-    </section>
-
-    <!------about------->
-
-    <section class="course">
-        <h1>About Me</h1>
-        <p>I have many interests on Science. One of the most popular science I know is Vedic Astrology. Below are some of the things about Vedic Astrology.</p>
-        <div class="row">
-            <div class="course-col">
-
-                <h3> Introduction to Vedic Astrology</h3>
-                <p> Jyotisha or Jyotishya (from Sanskrit jyotiṣa, from jyóti- "light, heavenly body") is the traditional Hindu system of astrology, also known as Hindu astrology, Indian astrology and more recently Vedic astrology. The term Hindu astrology has been in use as the English equivalent of Jyotiṣa since the early 19th century, whereas Vedic astrology is a relatively recent term, entering common usage in the 1970s with self-help publications on Āyurveda or yoga.</p>
-                <br> <br>
-
-                <h3>Western and Hindu Beliefs </h3>
-                <p> Some western as well as Indian scholars believe that the horoscopic astrology practiced in the Indian subcontinent came from Hellenistic influences, post-dating the Vedic period and the Vedanga Jyotisha, one of the earliest texts about astronomy within the Vedas However, this is a point of intense debate and many Indian scholars believe that Jyotisha developed independently although it may have interacted with Greek astrology.</p>
-                <br> <br>
-
-                <h3>Following Judgment</h3>
-                <p>Following a judgement of the Andhra Pradesh High Court in 2001 which favoured astrology, some Indian universities now offer advanced degrees in Hindu astrology. The scientific consensus is that astrology is a pseudoscience.</p>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel"></a>Travel</li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#Environment">Environment</a></li>
+                <li><a href="#Books">Books</a></li>
+                <li><a href="#AboutMe">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="page-header" id="travel">
+            <h2 class="text-capitalize">Places Must Visit</h2>
+        </div>
+        <center>
+            <div class="travel_maindiv">
+                <img class="img-responsive" src="https://1000logos.net/wp-content/uploads/2017/02/Harvard-Logo.png">
+                <h4 class="text-capitalize"><kbd>Harvard University</kbd> </h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">I had visited this college while my trip to boston around April 2018</h5>
+                <p class="text-muted text-left">Harvard Universiity is an amazing college! It is mostly known for it's Medical School. Harvard University is the 3rd most popular college in the world and the 2nd most selected Medical College. Many famous people and celebrities went to this college and got an amazing degree. For example, Barak Obama and Michelle Obama both went to this college. But, only 5% of the people get accepted to this college. This college is located in Boston Massachusetts, US. Many people's dream is to go to this college to get a medical degree. I hope you have chosen to visit this college!</p>
+            </div>
+        </center>
+        <br> <br>
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">Movies Review</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#MazeRunner">
+            <span class="glyphicon glyphicon-film"></span>Maze Runner <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="MazeRunner" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="Maze%20Runner.jpeg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left tex-capitalize">This Movie was an Outstanding Movie!
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>This movie is an amazing movie to watch with your family. The Maze Runner is a complete thriller movie. I would rate this a 5-star movie because this movie was a very great movie. I was very curious while watching this movie, it was just breathtaking and very fun! This is probably not a safe movie for ages under 12. This movie is a little violent and emotional. I love this movie and it is by far by favorite movie.</p>
             </div>
         </div>
-    </section>
-    <!-----family----->
-
-    <section class="family">
-        <h1>Family</h1>
-        <p>I live with my wife, Vasanta Dharmapuri, and my twin daugthers Prerna and Pranati Bankupalli. I also have pet fish, I have two gold-dust mollies, two rainbow-sunset-vareatus platties, and four guppies.</p>
-        <div class="row">
-            <div class="Spend">
-                <img src="https://yt3.ggpht.com/ytc/AAUvwnj2_lzM4d9j9znyf9XEoAdodAyuuyaHtOZyU6nUP1U=s900-c-k-c0x00ffffff-no-rj">
-                <div class="layer">
-                    <div class="layer">
-                        <h3>My Family</h3>
-                        <div class="layer">
-                        </div>
-                    </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Environment">
+        <h2 class="text-capitalize"> Environment </h2>
+        </div>
+        <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>LEGO plans to find replacement material for bricks by 2030</h4>
+            <img src="https://www.nme.com/wp-content/uploads/2021/02/D2H51K-696x442.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In an effort to be more environmentally responsible, LEGO have said they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year. While LEGO want to replace the harmful plastic used in their products, they also require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective “clicking” together is a key aspect of the iconic coloured block.</p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Books">
+        <h2 class="text-capitalize"> Books </h2>   
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h3>Barak Obama</h3>
+            <h4>
+            <mark class="header-entreprenuer">
+                <i>
+                <sup><i class="fa fa-quote-left"></i></sup>
+                    Reading is the gateway skill that makes all other learning possible
+                   <sup><i class="fa fa-quote-right"></i></sup> 
+                </i>
+                </mark>
+            </h4>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="text-capitalize"> List of Books </h2>   
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#PercyJackson">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51sZJKZpQBL._SX337_BO1,204,203,200_.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Percy Jackson and the Olympians, The Titan's Curse</p>
+        </div>
+        <div class="modal fade" id="PercyJackson">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Percy Jackson and the Olympians, The Titan's Curse</h4>
+                </div>
+                <div class="modal-body">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51sZJKZpQBL._SX337_BO1,204,203,200_.jpg" class="img-responsive img_modal">
+                    <p class="p_modal">The Titan's Curse is the third book in the Percy Jackson series. The author Rick Riordan made this an interesting story. It is about Percy and some new friends going on a quest to save the goddess Artimes. Not only does Percy have to save Artimes, he also has to save his friend Annabeth Chase. This book is an amazing book, but before you read it, read Percy Jackson and the Sea of Monsters.<br>
+                    <a href="https://www.target.com/p/the-titan-s-curse-percy-jackson-and-the-olympians-reprint-paperback-by-rick-riordan/-/A-11325175?ref=tgt_adv_XS000000&AFID=google_pla_df_free_local&CPNG=Entertainment&adgroup=59-13"><b>Best Buy link</b></a>
+                    </p>
                 </div>
             </div>
+            </div>
         </div>
-    </section>
-
-
-    <!---contact----->
-
-    <section class="facilities">
-        <h1>Contact Me</h1>
-        <p>If you have any please contact me. <br> You can email me at kkbankupalli@gmail.com or call me, my phone number is (201) 286 - 3852.</p>
-        <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.1942504165468!2d-74.47660508467847!3d40.271434979382256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3d91f3fba1095%3A0xe783ac1bee4aadd!2s6%20Jasmine%20Dr%2C%20Monroe%20Township%2C%20NJ%2008831!5e0!3m2!1sen!2sus!4v1624118874187!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </section>
-
-
-    <!------JavaScript for Toggle Menu------>
-
-    <script>
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-
-        function hideMenu() {
-            navLinks.style.right = "200px";
-        }
-
-    </script>
+        <section id="contact"> <iframe src="https://www.google.com/maps/embedpb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+            <hr style="width:100%;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Heroes-of-Olympus-logo.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Prerna Bankupalli</h3>
+            <div class="contact_1"> 
+                <a href="mailto:my@gmail.com?Subject=Hi"> <h5><i class="fa fa-envelope"></i> &nbsp; &nbsp;  mygmailid@gmail.com </h5> </a>
+                    <a href="#"> <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5> </a> </div>
+        </section>
+    </div>
 </body>
 
 </html>
